@@ -1,11 +1,13 @@
 import praw
 import json
+
 #donne accès à reddit au bot (botstc)
-r = praw.Reddit(client_id='GuoCM923BioqnKR1FZ28vg',
-                client_secret='wwhlVS-P0IFdQviWTjP2tojEgG8SVg',
-                password="va3sa7J5",
-                username="Hacklowa",
-                user_agent="Stocks_Checker")
+# Put the correct info for the bot under this comment
+r = praw.Reddit(client_id='####################',
+        client_secret='#######################',
+    password='####################',
+    username='####################',
+    user_agent='##################')
 #indiquer quel subreddit il aura accès
 subreddit = r.subreddit("stocks")
 ticks = {}
