@@ -1,9 +1,5 @@
-
 from bot import analyse_post, bot_activation
 import yfinance as yf
-import pandas as pd
-import datetime
-import numpy as np
 import matplotlib.pyplot as plt
 from pandas.plotting import scatter_matrix
 
@@ -23,5 +19,4 @@ def trois_pop():
     plt.title('Stock Prices of the three most popular stocks on Reddit', fontdict=None, loc='center', pad=None)
     plt.show()
 trois_pop()
-
 
